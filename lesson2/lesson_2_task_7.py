@@ -1,6 +1,11 @@
-lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
-sum = 0 
-for num in lst:
-    sum += num
+class User:
+    def __init__(self, name):
+        print(" Try login...........")
+        print(name, "login")
 
-print(sum)
+
+user1 = User("bred")
+user2 = User("kevin")
+user3 = User("mark")
+user4 = User("djon")
+user5 = User("fork")
